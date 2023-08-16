@@ -18,7 +18,7 @@ def main():
 	args = parser.parse_args()
 
 	input_file = args.input_file
-	print(f"Processing input file: {input_file}")
+	#print(f"Processing input file: {input_file}")
 
 	f = open(input_file)
 	parsed_seqs = parse_fasta_file(f)
