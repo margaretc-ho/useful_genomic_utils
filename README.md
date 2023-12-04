@@ -7,4 +7,4 @@ Scaffolds containing a gap are divided into separate fasta entries. Each subsequ
 
 Usage:
 
-split_scaffolds_at_gaps.py input_fasta.fa > output_fasta.fa
+python split_scaffolds_at_gaps.py input_fasta.fa > output_fasta.fa
